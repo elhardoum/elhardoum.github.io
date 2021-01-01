@@ -1,237 +1,344 @@
 <!DOCTYPE html>
-<html class="h-full">
+<html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ismail El. &mdash; Software Developer</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" />
+    <title>Ismail El Hardoum &mdash; Software Developer</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 </head>
-<body class="h-full bg-grey-lightest">
+<body class="loading">
+    <header>
+        <a href=".">
+            <img src="./assets/img/pixel.gif" alt="Nikita the cate" />
+        </a>
 
-    <div id="content" style="max-width:900px" class="m-auto mt-6 p-4">
-        <div class="sm:flex mb-4 items-center" id="site-intro">
-            <div class="w-1/4 bg-white p-1 border">
-                <img src="https://secure.gravatar.com/avatar/604e4c5e40cf2704499b50948ff92150?s=400&d=mm&r=g" class="block" />
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About</h1>
+        <p>I am a software developer currently based in Calgary, Canada. My passion for programming started back in 2014 when I was trying to make a website to make a quick buck. I had no idea what I was doing, but after many tries I finally installed WordPress on a live domain and begun publishing. Couple months later I figured websites were built in HTML, so I started learning the language, mostly from a printed 40ish pages book. It was so much fun, I figured I had learned a lot about web design and development, and continued to learn CSS, PHP then JavaScript.</p>
+        <p>Fast forward to two years later, I had developed so many skills and accumulated knowledge mostly from the free internet, I decided to start pitching for gigs and I entered the world of freelance.</p>
+        <p>But just before that, I had built a dozen of plugins for WordPress platform, and sold copies on Envato marketplace, but it was a bit of a burden providing product support and working on features simultaneously, I've decided to sell my business and shift to freelancing.</p>
+        <p>During my years of freelancing I've had the pleasure to work with a handful of clients from all over the world and expanded my skillset. Heck, I even traveled abroad for the first time and managed to get stuck in the Philippines for 6 months, all while working remotely. Moving forward I've decided to get a degree in this field and I am currently at the initial phase of doing so with Bow Valley College.</p>
+    </section>
+
+    <section id="experience">
+        <h1>Education</h1>
+        
+        <div class="experience-item">
+            <h3>Bow Valley College - Calgary, AB. Canada</h3>
+            <p>Diploma, Software Development
+            <br/><em>Sept 2020 - current</em></p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Ecole Web Avancé - Agadir, Morocco</h3>
+            <p>Diploma, Web Design & Development (Multimedia)
+            <br/><em>Sept 2017 - June 2019</em></p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Ibnou Zohr University - Agadir, Morocco</h3>
+            <p>Economics
+            <br/><em>2014 - 2016</em></p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Ibnou Zohr University - Agadir, Morocco</h3>
+            <p>Biology
+            <br/><em>2013 - 2014</em></p>
+        </div>
+
+        <br/>
+        <h1>Careers</h1>
+        
+        <div class="experience-item">
+            <h3>Individual Differences Research Labs (IDR Labs)</h3>
+            <p>Part-time, Lead Developer
+            <br/><em>March 2017 - current</em></p>
+        </div>
+
+        <div class="experience-item">
+            <h3>UpWork</h3>
+            <p>Part-time, Contractor
+            <br/><em>February 2017 - current</em></p>
+        </div>
+
+        <div class="experience-item">
+            <h3><em>(Entity Acquired)</em></h3>
+            <p>Full-time, WordPress Plugins Developer
+            <br/><em>2015 - 2017</em></p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+
+        <div class="skill-group">
+            <h4>Backend</h4>
+            <div>
+                <span>PHP</span>
+                <span>Node.js</span>
+                <span>Python</span>
             </div>
-            <div class="flex-1 sm:ml-2 sm:p-6 pt-5">
-                <h2 class="uppercase tracking-wide text-grey-dark text-xl mb-2 font-normal">Hello, World!</h2>
+        </div>
 
-                <p class="text-sm pt-1 text-grey-darker">My name is Ismail. On the internet, I am mostly known as Samuel Elh. That was a business I have started my career with, providing free and premium WordPress plugins since 2015 for about 2 years, now acquired by DevriX.</p>
-
-                <p class="text-sm pt-1 text-grey-darker mt-2">I am a software developer, working mostly as a part-time contractor on Upwork (freelance), part-time lead developer at IDR Labs and specializing in full-stack web, mobile development and web scraping. My mainly used languages and frameworks include, but are not limited to, PHP, WordPress, JavaScript, Python, Node.js, React.js and React Native.</p>
-
-                <p class="text-sm pt-1 text-grey-darker mt-2">My availability will be limited to part-time offers and I cannot guarantee more than 20-25 hours of work per week as I have ongoing projects. Timezone-wise, I am currently in Asia but I'll be moving to Canada before September.</p>
+        <div class="skill-group">
+            <h4>Front-end</h4>
+            <div>
+                <span>JavaScript</span>
+                <span>React.js</span>
+                <span>CSS/SASS</span>
             </div>
         </div>
 
-        <div class="block border border-dashed border-b-0 m-10 mx-20"></div>
-
-        <h2 class="uppercase tracking-wide text-grey-dark text-xl mb-6 font-normal">Skills &amp; Interests</h2>
-
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Backend</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">PHP</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Node.js</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Python</h3>
+        <div class="skill-group">
+            <h4>Frameworks</h4>
+            <div>
+                <span>WordPress</span>
+                <span>Flask</span>
+                <span>Tornado</span>
+            </div>
         </div>
 
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Front-end</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">JavaScript</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Chrome/FF Extensions</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">React.js</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">SASS</h3>
+        <div class="skill-group">
+            <h4>Mobile Development</h4>
+            <div>
+                <span>React Native</span>
+            </div>
         </div>
 
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Frameworks</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">WordPress</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Flask</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Tornado</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Django</h3>
+        <div class="skill-group">
+            <h4>Cloud</h4>
+            <div>
+                <span>Linode</span>
+                <span>AWS</span>
+                <span>DigitalOcean</span>
+            </div>
         </div>
 
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Mobile development</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">React Native</h3>
+        <div class="skill-group">
+            <h4>Database</h4>
+            <div>
+                <span>MySQL</span>
+                <span>Redis</span>
+                <span>MongoDB</span>
+                <span>Postgres</span>
+                <span>SQLite</span>
+                <span>Realm</span>
+                <span>Firebase</span>
+            </div>
         </div>
 
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Cloud</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Linode</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">AWS</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">DigitalOcean</h3>
+        <div class="skill-group">
+            <h4>Payment Gateways</h4>
+            <div>
+                <span>PayPal</span>
+                <span>Stripe</span>
+                <span>Braintree</span>
+            </div>
         </div>
 
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Database</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">MySQL</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Redis</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">MongoDB</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Postgres</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">SQLite</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Realm</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Firebase</h3>
+        <div class="skill-group">
+            <h4>Misc</h4>
+            <div>
+                <span>Chrome Extensions</span>
+                <span>Linux/Unix</span>
+                <span>Git</span>
+                <span>Web Scraping</span>
+                <span>Docker</span>
+                <span>Bash</span>
+            </div>
         </div>
-
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Payment Gateways</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">PayPal</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Stripe</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Braintree</h3>
-        </div>
-
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Misc</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Linux/Unix</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Git</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Web Scraping</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Docker</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Bash</h3>
-        </div>
-
-        <h4 class="uppercase tracking-wide text-grey-dark text-xs font-bold select-none">Irrelevant Interests</h4>
-        <div class="select-none uppercase tracking-wide text-xs mb-4">
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Cats</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Iron Maiden</h3>
-            <h3 class="font-normal text-grey-darker px-4 py-2 inline-block border border-grey-light mt-1">Metallica</h3>
-        </div>
-
-        <div class="block border border-dashed border-b-0 m-10 mx-20"></div>
-
-        <h2 class="uppercase tracking-wide text-grey-dark text-xl mb-2 font-normal">Some of my Works</h2>
 
         <p>&nbsp;</p>
+        <h1>Languages</h1>
 
-        <div>
-            <div class="w-full md:flex mt-2">
-                <div class="border h-48 md:h-auto md:w-48 flex-none bg-cover bg-center md:bg-left rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden" style="background-image: url('./assets/img/idrlabs.png')">
-                </div>
-                <div class="border-r border-b border-l border-grey-light md:border-l-0 md:border-t md:border-grey-light bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                    <div>
-                        <div class="text-grey-darker tracking-wide font-bold mb-2">Individual Differences Research (IDR) Labs</div>
-                        <p class="text-grey-darker text-base">80+ Free Personality Tests, type assessment, infographics, free and premium articles, and lots more.</p>
-                        <div class="pt-4 select-none">
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Full-stack</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">WordPress</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">DevOps</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Mobile App</span>
-                        </div>
-                    </div>
-                    <p class="font-normal mt-3 text-grey text-sm select-none uppercase">Since 2017</p>
-                </div>
-            </div>
-
-            <div class="w-full md:flex mt-2">
-                <div class="border h-48 md:h-auto md:w-48 flex-none bg-cover bg-center md:bg-left rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden" style="background-image: url('./assets/img/botsentinel.jpeg')">
-                </div>
-                <div class="border-r border-b border-l border-grey-light md:border-l-0 md:border-t md:border-grey-light bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                    <div>
-                        <div class="text-grey-darker tracking-wide font-bold mb-2">Bot Sentinel</div>
-                        <p class="text-grey-darker text-base">Bot Sentinel is a free platform developed to automatically detect political trollbots and fake news accounts.</p>
-                        <div class="pt-4 select-none">
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Full-stack</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Chrome/FF Extension</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Mobile App</span>
-                        </div>
-                    </div>
-                    <p class="font-normal mt-3 text-grey text-sm select-none uppercase">2018</p>
-                </div>
-            </div>
-
-            <div class="w-full md:flex mt-2">
-                <div class="border h-48 md:h-auto md:w-48 flex-none bg-cover bg-center md:bg-left rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden" style="background-image: url('./assets/img/funnelytics-helper.png')">
-                </div>
-                <div class="border-r border-b border-l border-grey-light md:border-l-0 md:border-t md:border-grey-light bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                    <div>
-                        <div class="text-grey-darker tracking-wide font-bold mb-2">Funnelytics Helper Chrome Extension</div>
-                        <p class="text-grey-darker text-base">A React.js browser extension with the backend implemented with Node.js, MongoDB and Redis (a REST API). It also relies on WordPress as the user backend.</p>
-                        <div class="pt-4 select-none">
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Chrome Extension</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">React.js</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Node.js</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Redis</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">MongoDB</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">WordPress Plugin</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Amazon EC2</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">DevOps</span>
-                        </div>
-                    </div>
-                    <p class="font-normal mt-3 text-grey text-sm select-none uppercase">2019</p>
-                </div>
-            </div>
-
-            <div class="w-full md:flex mt-2">
-                <div class="border h-48 md:h-auto md:w-48 flex-none bg-cover bg-center md:bg-left rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden" style="background-image: url('./assets/img/property-hub.png')">
-                </div>
-                <div class="border-r border-b border-l border-grey-light md:border-l-0 md:border-t md:border-grey-light bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                    <div>
-                        <div class="text-grey-darker tracking-wide font-bold mb-2">Property Hub</div>
-                        <p class="text-grey-darker text-base">Property Hub allows rental companies to connect with clients from Ireland by creating accounts and listing properties for rent. A database of properties and tenants.</p>
-                        <div class="pt-4 select-none">
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Full-stack</span>
-                        </div>
-                    </div>
-                    <p class="font-normal mt-3 text-grey text-sm select-none uppercase">2018</p>
-                </div>
-            </div>
-
-            <div class="w-full md:flex mt-2">
-                <div class="border h-48 md:h-auto md:w-48 flex-none bg-cover bg-center md:bg-left rounded-t md:rounded-t-none md:rounded-l text-center overflow-hidden" style="background-image: url('./assets/img/walmart-insights.png')">
-                </div>
-                <div class="border-r border-b border-l border-grey-light md:border-l-0 md:border-t md:border-grey-light bg-white rounded-b md:rounded-b-none md:rounded-r p-4 flex flex-col justify-between leading-normal">
-                    <div>
-                        <div class="text-grey-darker tracking-wide font-bold mb-2">Walmart Insights Chrome Extension</div>
-                        <p class="text-grey-darker text-base">Tracks Walmart customer browsing history to generate insights and recommendations based on customer data and Walmart Open API.</p>
-                        <div class="pt-4 select-none">
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">Chrome Extension</span>
-                            <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mt-1">React.js</span>
-                        </div>
-                    </div>
-                    <p class="font-normal mt-3 text-grey text-sm select-none uppercase">2019</p>
-                </div>
+        <div class="skill-group lang">
+            <h4>English</h4>
+            <div>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&star;</span>
             </div>
         </div>
 
-        <p class="text-sm pt-1 text-grey-dark mt-6">I don't document all of the work I do. For a bit extra, visit my Upwork profile, where you can find more portfolio items and jobs I've taken.</p>
-
-        <div class="block border border-dashed border-b-0 m-10 mx-20"></div>
-
-        <p class="select-none text-center text-grey-dark text-sm uppercase">Find me online</p>
-
-        <div class="pt-4 select-none text-center">
-            <a style="background-color:#4078c0" class="inline-block no-underline hover:underline rounded-full px-3 py-1 text-sm text-white mt-1" href="https://github.com/elhardoum">Github</a>
-            <a style="background-color:#1da1f2" class="inline-block no-underline hover:underline rounded-full px-3 py-1 text-sm text-white mt-1" href="https://twitter.com/intent/user?user_id=3301782339">Twitter</a>
-            <a style="background-color:#00ab6c" class="inline-block no-underline hover:underline rounded-full px-3 py-1 text-sm text-white mt-1" href="https://medium.com/@elhardoum">Medium</a>
-            <a style="background-color:#1e5397" class="inline-block no-underline hover:underline rounded-full px-3 py-1 text-sm text-white mt-1" href="https://stackexchange.com/users/4847742/lol">Stack Exchange</a>
-            <a style="background-color:#ff0000" class="inline-block no-underline hover:underline rounded-full px-3 py-1 text-sm text-white mt-1" href="https://www.youtube.com/channel/UCwXisZUzclxCXr8r8yjTyZw">YouTube</a>
-            <a style="background-color:#5ecc62" class="inline-block no-underline hover:underline rounded-full px-3 py-1 text-sm text-white mt-1" href="https://www.upwork.com/fl/samuelelh2">Upwork</a>
-            <a style="background-color:#0063dc" class="inline-block no-underline hover:underline rounded-full px-3 py-1 text-sm text-white mt-1" href="https://www.flickr.com/photos/142472131@N05/" title="My Instagram">Flickr</a>
+        <div class="skill-group lang">
+            <h4>French</h4>
+            <div>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&star;</span>
+                <span>&star;</span>
+            </div>
         </div>
 
-        <div class="block border border-dashed border-b-0 m-10 mx-20"></div>
-
-        <div class="text-center select-none">
-            <p class="text-sm pt-1 text-grey-dark mt-6">Let's work together!</p>
-            
-            <a href="javascript:" onclick="e=[105,64,101,108,104,97,114,100,111,117,109,46,99,111,109].map(String.fromCharCode).join('').replace(/[^a-z\.\@]/g,'');this.textContent=e;this.href='mailto:'+e;return this.onclick=false" class="table no-underline m-auto mt-3 bg-transparent text-blue-dark font-semibold py-2 px-4 border border-blue hover:border-grey rounded">Show Email</a>
-
-            <p class="text-xs pt-1 text-grey-dark mt-2 table m-auto">Or try <a class="text-grey-dark" href="https://www.elhardoum.com/work-with-me">the contact form</a></p>
-            <p class="text-xs pt-1 text-grey-dark mt-2 table m-auto italic tracking-wide">Available for part-time only (and remote) positions.</p>
+        <div class="skill-group lang">
+            <h4>Spanish</h4>
+            <div>
+                <span>&starf;</span>
+                <span>&star;</span>
+                <span>&star;</span>
+                <span>&star;</span>
+                <span>&star;</span>
+            </div>
         </div>
 
-        <div class="block border border-dashed border-b-0 m-10 mx-20"></div>
-
-        <div class="my-6 text-center">
-            <img src="./assets/img/f60.jpg" />
+        <div class="skill-group lang">
+            <h4>Arabic</h4>
+            <div>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&star;</span>
+            </div>
         </div>
 
-        <div class="mt-12 mb-6 text-center">
-            <p class="text-xs pt-1 text-grey-dark mt-6">&copy; 2018-2020 &mdash; elhardoum.com</p>
+        <div class="skill-group lang">
+            <h4>Amazigh (mother tongue)</h4>
+            <div>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&starf;</span>
+                <span>&starf;</span>
+            </div>
         </div>
-    </div>
+    </section>
 
+    <section id="projects">
+        <h1>Projects</h1>
+
+        <p style="margin-bottom:14px">Here are some of the many projects I've had the pleasure to work on. For more, please visit my freelance portfolio or <a href="#contact">contact me</a>.</p>
+
+        <div class="project-item">
+            <img src="./assets/img/pixel.gif" alt="Project Item" style="background-image:url(./assets/img/project-1.png)" />
+            <div>
+                <h3>IDR Labs</h3>
+                <p>200+ Free Personality Tests, type assessment, infographics, free and premium articles, and lots more.</p>
+                <em>March 2017 - current</em>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/img/pixel.gif" alt="Project Item" style="background-image:url(./assets/img/project-6.png)" />
+            <div>
+                <h3>Email Leads Chrome Extension</h3>
+                <p>A tool to automate scraping business leads from Google Search.</p>
+                <em>2020</em>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/img/pixel.gif" alt="Project Item" style="background-image:url(./assets/img/project-7.png)" />
+            <div>
+                <h3>Phone Recycling Service</h3>
+                <p>A platform where customers can receive quotes for their listed phones, sign up and complete the sale.</p>
+                <em>2020</em>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/img/pixel.gif" alt="Project Item" style="background-image:url(./assets/img/project-5.png)" />
+            <div>
+                <h3>Cookie Consent Banner App</h3>
+                <p>GDPR scanner for cookies and user consent management.</p>
+                <em>2020</em>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/img/pixel.gif" alt="Project Item" style="background-image:url(./assets/img/project-4.png)" />
+            <div>
+                <h3>Walmart Insights Chrome Extension</h3>
+                <p>Tracks Walmart customer browsing history to generate insights and recommendations based on customer data and Walmart Open API.</p>
+                <em>2019</em>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/img/pixel.gif" alt="Project Item" style="background-image:url(./assets/img/project-2.png)" />
+            <div>
+                <h3>Bot Sentinel</h3>
+                <p>Bot Sentinel is a free platform developed to automatically detect political trollbots and fake news accounts.</p>
+                <em>2018</em>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <img src="./assets/img/pixel.gif" alt="Project Item" style="background-image:url(./assets/img/project-3.png)" />
+            <div>
+                <h3>Property Hub</h3>
+                <p>Property Hub allows rental companies to connect with clients from Ireland by creating accounts and listing properties for rent.</p>
+                <em>2018</em>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+
+        <form method="post">
+            <input type="email" name="email" placeholder="Your email address"  class="default" />
+            <input type="text" name="subject" placeholder="Subject"  class="default" />
+            <textarea name="message" placeholder="Your message" class="default" ></textarea>
+            <button type="submit">Submit</button>
+            <p style="margin-top:14px">Or send me an email at <span class="print-email"></span>.</p>
+        </form>
+    </section>
+
+    <p>&nbsp;</p>
+
+    <footer>
+        <span>&copy; 2018-2021 &mdash; elhardoum.com</span>
+
+        <span>
+            <a title="GitHub" href="https://github.com/elhardoum">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a title="Twitter" href="https://twitter.com/intent/user?user_id=3301782339">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+            </a>
+            <a title="Medium" href="https://medium.com/@elhardoum">
+                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c-6.626 0-12 5.372-12 12 0 6.627 5.374 12 12 12 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12zm6.974 17.557v-.235l-1.092-1.072c-.096-.073-.144-.194-.124-.313v-7.874c-.02-.119.028-.24.124-.313l1.118-1.072v-.235h-3.869l-2.758 6.88-3.138-6.88h-4.059v.235l1.308 1.575c.128.115.194.285.176.457v6.188c.038.223-.032.451-.189.614l-1.471 1.784v.235h4.17v-.235l-1.471-1.784c-.158-.163-.233-.389-.202-.614v-5.352l3.66 7.985h.425l3.143-7.985v6.365c0 .17 0 .202-.111.313l-1.13 1.098v.235h5.49z"/></svg>
+            </a>
+            <a title="Stack Exchange" href="https://stackexchange.com/users/4847742">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15 21h-10v-2h10v2zm6-11.665l-1.621-9.335-1.993.346 1.62 9.335 1.994-.346zm-5.964 6.937l-9.746-.975-.186 2.016 9.755.879.177-1.92zm.538-2.587l-9.276-2.608-.526 1.954 9.306 2.5.496-1.846zm1.204-2.413l-8.297-4.864-1.029 1.743 8.298 4.865 1.028-1.744zm1.866-1.467l-5.339-7.829-1.672 1.14 5.339 7.829 1.672-1.14zm-2.644 4.195v8h-12v-8h-2v10h16v-10h-2z"/></svg>
+            </a>
+            <a title="UpWork" href="https://www.upwork.com/freelancers/~01c536790406f2151a">
+                <svg width="24" height="24" version="1.1" viewBox="0 0 56.7 56.7" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.4,17.7c-5.3,0-9.3,3.5-10.9,9c-2.5-3.9-4.5-8.3-5.6-12.1h-5.6v14.7c0,2.9-2.4,5.3-5.3,5.3c-2.9,0-5.3-2.4-5.3-5.3V14.7  H4.3v14.7c0,6.1,4.9,11,10.9,11c6,0,10.9-4.9,10.9-11v-2.5c1.1,2.2,2.5,4.6,4,6.7l-3.5,16.3h5.7L34.7,38c2.2,1.4,4.7,2.2,7.7,2.2  c6.1,0,11.1-5,11.1-11.4C53.5,22.7,48.5,17.7,42.4,17.7z M42.4,34.6c-2.2,0-4.5-1-6.3-2.5l0.6-2.2v-0.1c0.4-2.4,1.7-6.4,5.8-6.4  c3.1,0,5.6,2.5,5.6,5.6C48,32.1,45.3,34.6,42.4,34.6z"/></svg>
+            </a>
+            <a title="Flickr" href="https://www.flickr.com/photos/142472131@N05/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17 5c-1.961 0-3.731.809-5.002 2.108-1.27-1.299-3.038-2.108-4.998-2.108-3.866 0-7 3.134-7 7s3.134 7 7 7c1.96 0 3.728-.809 4.998-2.108 1.271 1.299 3.041 2.108 5.002 2.108 3.866 0 7-3.134 7-7s-3.134-7-7-7zm0 12c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"/></svg>
+            </a>
+        </span>
+    </footer>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <div id="loader"></div>
+
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <!-- fun fact: this webpage was an end-of-semester project for a Web/Internet Fundamentals course, and took an overall of 4 hours to build -->
 </body>
 </html>
