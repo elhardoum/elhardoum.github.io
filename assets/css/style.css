@@ -275,9 +275,10 @@ footer a svg {
 }
 
 footer a:nth-child(1):hover, footer a:nth-child(1):active, footer a:nth-child(1):focus { color: #4078c0 }
-footer a:nth-child(2):hover, footer a:nth-child(2):active, footer a:nth-child(2):focus { color: #1da1f2 }
-footer a:nth-child(3):hover, footer a:nth-child(3):active, footer a:nth-child(3):focus { color: #00ab6c }
-footer a:nth-child(4):hover, footer a:nth-child(4):active, footer a:nth-child(4):focus { color: #f48024 }
-footer a:nth-child(5):hover, footer a:nth-child(5):active, footer a:nth-child(5):focus { color: #5ecc62 }
-footer a:nth-child(6):hover, footer a:nth-child(6):active, footer a:nth-child(6):focus { color: #ff0000 }
-footer a:nth-child(7):hover, footer a:nth-child(7):active, footer a:nth-child(7):focus { color: #0063dc }
+footer a:nth-child(2):hover, footer a:nth-child(2):active, footer a:nth-child(2):focus { color: #0077b5 }
+footer a:nth-child(3):hover, footer a:nth-child(3):active, footer a:nth-child(3):focus { color: #1da1f2 }
+footer a:nth-child(4):hover, footer a:nth-child(4):active, footer a:nth-child(4):focus { color: #00ab6c }
+footer a:nth-child(5):hover, footer a:nth-child(5):active, footer a:nth-child(5):focus { color: #f48024 }
+footer a:nth-child(6):hover, footer a:nth-child(6):active, footer a:nth-child(6):focus { color: #5ecc62 }
+footer a:nth-child(7):hover, footer a:nth-child(7):active, footer a:nth-child(7):focus { color: #ff0000 }
+footer a:nth-child(8):hover, footer a:nth-child(8):active, footer a:nth-child(8):focus { color: #0063dc }
