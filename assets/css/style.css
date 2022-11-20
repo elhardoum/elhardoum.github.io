@@ -135,11 +135,13 @@ section > h1 {
     color: #607D8B;
 }
 
-#experience .experience-item {
+#experience .experience-item,
+#skills .certification-item {
     margin-top: 14px;
 }
 
-#experience .experience-item > p > em {
+#experience .experience-item > p > em,
+#skills .certification-item > p > em {
     color: #888;
 }
 
