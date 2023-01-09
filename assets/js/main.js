@@ -122,4 +122,21 @@
       + '?subject=' + encodeURIComponent(subject.value.trim())
       + '&body=' + encodeURIComponent(message.value.trim() + '\n\nFrom: ' + email.value))
   }, false)
+
+
+  // googly eyes
+  var circles = document.querySelectorAll('#googly-eyes > svg > circle:last-child')
+
+  document.addEventListener('mousemove', function(event)
+  {
+    circles.forEach(function(circle)
+    {
+      var svg = circle.parentElement
+        , svgRect = svg.getBoundingClientRect()
+        , thetaR = Math.atan2(event.pageY - svgRect.top - svgRect.height/2, event.pageX - svgRect.left - svgRect.width)
+        , thetaDeg = thetaR * 180/Math.PI
+
+      svg.style.transform = 'rotate(' + (130+thetaDeg) + 'deg)'
+    })
+  }, false)
 })()

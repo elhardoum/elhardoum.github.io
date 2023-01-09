@@ -56,6 +56,7 @@ header > a {
     box-shadow: 0 0 8px #d6d6d6;
     border-radius: 100%;
     border: 2px solid white;
+    position: relative;
 }
 header > a img {
     padding: 5px;
@@ -284,3 +285,38 @@ footer a:nth-child(5):hover, footer a:nth-child(5):active, footer a:nth-child(5)
 footer a:nth-child(6):hover, footer a:nth-child(6):active, footer a:nth-child(6):focus { color: #5ecc62 }
 footer a:nth-child(7):hover, footer a:nth-child(7):active, footer a:nth-child(7):focus { color: #ff0000 }
 footer a:nth-child(8):hover, footer a:nth-child(8):active, footer a:nth-child(8):focus { color: #0063dc }
+
+#googly-eyes > svg {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    fill: white;
+    overflow: hidden;
+}
+
+#googly-eyes > svg:first-child {
+    top: 54px;
+    right: 66px;
+}
+
+#googly-eyes > svg:last-child {
+    top: 60px;
+    right: 45px;
+}
+
+@media (max-width: 600px) {
+    #googly-eyes > svg {
+        height: 13px;
+        width: 13px;
+    }
+
+    #googly-eyes > svg:first-child {
+        top: 40px;
+        right: 48px;
+    }
+
+    #googly-eyes > svg:last-child {
+        top: 45px;
+        right: 31px;
+    }
+}
