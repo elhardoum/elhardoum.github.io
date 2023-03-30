@@ -292,6 +292,7 @@ footer a:nth-child(8):hover, footer a:nth-child(8):active, footer a:nth-child(8)
     position: absolute;
     fill: white;
     overflow: hidden;
+    transform: rotate(250deg);
 }
 
 #googly-eyes > svg:first-child {
@@ -316,7 +317,7 @@ footer a:nth-child(8):hover, footer a:nth-child(8):active, footer a:nth-child(8)
     }
 
     #googly-eyes > svg:last-child {
-        top: 45px;
-        right: 31px;
+        top: 46px;
+        right: 32px;
     }
 }
