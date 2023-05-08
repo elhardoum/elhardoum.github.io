@@ -189,6 +189,7 @@ section > h1 {
     background-position: center center;
     display: block;
     box-shadow: 0 0 4px #ddd;
+    cursor: pointer;
 }
 #projects .project-item div {
     flex: 1;

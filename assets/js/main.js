@@ -139,4 +139,16 @@
       svg.style.transform = 'rotate(' + (130+thetaDeg) + 'deg)'
     })
   }, false)
+
+  // projects
+  document.querySelectorAll('.project-item img[style*="background-image"]').forEach(function(elem)
+  {
+    elem.title = 'Click to view attachment in a new tab'
+
+    elem.addEventListener('click', function(e)
+    {
+      e.preventDefault()
+      window.open(this.style.backgroundImage.replace(/(url\(|\)|")/g, ''))
+    }, false)
+  })
 })()
